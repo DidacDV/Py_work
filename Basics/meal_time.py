@@ -11,7 +11,7 @@ def main():
             print("dinner time")
         else: print("Not a meal time :(")
     except ValueError:
-        print("Insert time correctly!")
+        print("Input must have HH:MM format")
 
 def convert(time):
     hour, minute = time.split(":")
