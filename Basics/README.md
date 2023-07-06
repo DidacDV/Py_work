@@ -8,4 +8,4 @@
 
 - meal_time
   
-  Simple program that takes as input a specific hour of the day (HH:MM) and prints which meal you should have (based on my opinion).
+  Simple program that takes as input a specific hour of the day (HH:MM) and prints which meal you should have (based on my opinion) + try and except first touch.
