@@ -9,3 +9,7 @@
 - meal_time
   
   Simple program that takes as input a specific hour of the day (HH:MM) and prints which meal you should have (based on my opinion) + try and except first touch.
+
+- kebab_shop
+
+  Program to use dictionaries + try and except again. Simulates ordering on a kebab shop.
