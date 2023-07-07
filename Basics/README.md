@@ -13,3 +13,7 @@
 - kebab_shop
 
   Program to use dictionaries + try and except again. Simulates ordering on a kebab shop.
+
+- calculator
+
+  Lets you do operation consisting of 3 elements (operand1 type_of_operation operand2).
