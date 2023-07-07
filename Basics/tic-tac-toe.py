@@ -89,4 +89,6 @@ def main():
     board_size = int(input())
     play_game(board_size, 'X', 'O')
 
-main()
+
+if __name__ == "__main__":
+    main()
