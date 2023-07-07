@@ -11,23 +11,29 @@ menu = {
     "Nuggets": 3.50
 }
 
-print("Welcome to your local kebab! this is the menu of the day:")
-for i in menu:
-    print(i, end = ' ')
-    print(f"${menu[i]}")
-total = 0
-while True:
-    print("Item: ", end = '')
-    try:
-        item = input()
-        item = item.title()
+
+def main():
+    print("Welcome to your local kebab! this is the menu of the day:")
+    for i in menu:
+        print(i, end = ' ')
+        print(f"${menu[i]}")
+    total = 0
+    while True:
+        print("Item: ", end = '')
         try:
-            price = menu[item]
-            total += price
-            print("Total: $" , end="")
-            print("{:.2f}".format(total))
-        except KeyError:
-            print("Item not found, try again")
-    except EOFError:
-        print("Thanks for coming amigo, bye!")
-        break
+            item = input()
+            item = item.title()
+            try:
+                price = menu[item]
+                total += price
+                print("Total: $" , end="")
+                print("{:.2f}".format(total))
+            except KeyError:
+                print("Item not found, try again")
+        except EOFError:
+            print("Thanks for coming amigo, bye!")
+            break
+
+
+if __name__ == "__main__":
+    main()
