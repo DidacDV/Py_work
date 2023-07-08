@@ -16,4 +16,4 @@
 
 - calculator
 
-  Lets you do operation consisting of 3 elements (operand1 type_of_operation operand2).
+  Lets you do operations consisting of 3 elements (operand1 type_of_operation operand2).
