@@ -2,7 +2,7 @@ import random
 import string
 
 def generate_password(lp, ch):
-    return ''.join(random.choice(ch) for option in range(lp))                                #Gets random chars from the string we created forming a "password"
+    return ''.join(random.choice(ch) for _ in range(lp))                                #Gets random chars from the string we created forming a "password"
 
 
 def main():
