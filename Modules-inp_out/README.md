@@ -11,3 +11,8 @@
 - bitcoin_converter
 
   Converts a float number of bitcoin given at the command line to it's dollar equivalent using the coindesk api with the module [requests](https://requests.readthedocs.io/en/latest/).
+
+- camelcase_fixer
+
+  Because i wanted to see how file input and output works, i made this program where if you insert the name of a file that is in camel-case in the command line, "result.txt" will be
+  created, containing the same txt in snake-case. 
