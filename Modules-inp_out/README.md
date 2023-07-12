@@ -10,4 +10,4 @@
   
 - bitcoin_converter
 
-  Converts a float number given at the command line to it's bitcoin equivalent using the coindesk api with the module [requests](https://requests.readthedocs.io/en/latest/).
+  Converts a float number of bitcoin given at the command line to it's dollar equivalent using the coindesk api with the module [requests](https://requests.readthedocs.io/en/latest/).
