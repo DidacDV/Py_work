@@ -16,3 +16,7 @@
 
   Because i wanted to see how file input and output works, i made this program where if you insert the name of a file that is in camel-case in the command line, "result.txt" will be
   created, containing the same txt in snake-case. 
+
+- gif_generator
+
+  Using PIL module and appending images we can create a GIF. The name of the images have to be inserted in the command line and they have to be the same size.
