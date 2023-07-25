@@ -6,5 +6,5 @@
 
 - location_tracker
 
-  Contains the Phone class that can be used to check the location of a given phone number and it's current service.
+  Contains the Phone class that can be used to check the location of a given phone number and its current service.
 
